@@ -1,13 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package formats;
+
+import com.mycompany.laba3_monst.Monster;
+import com.mycompany.laba3_monst.MonsterParser;
+import java.util.List;
 
 /**
  *
  * @author elenagoncarova
  */
-public class XmlMonsterParser {
+public class XmlMonsterParser extends MonsterParser {
+
+    @Override
+    public List<Monster> parse(String filename) throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }
