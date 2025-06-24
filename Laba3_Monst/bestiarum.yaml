@@ -1,0 +1,174 @@
+- !!monsters.Monster
+  name: Леший
+  description: Гибрид человека и лесного духа, охраняющий древние рощи
+  danger: 7
+  habitat: Обитает в чащах Брокилона и Эдингеля
+  firstMention: '1234-06-21'
+  vulnerability: Неуязвим к магии
+  height: 3 м
+  weight: 300 кг
+  immunities:
+    - оглушение
+    - яды
+  activeTime: Активен ночью
+  recipe:
+    type: яд
+    ingredients: корень мандрагоры (3), пепел драконида (1), эссенция полыни
+    time: 60
+    effectiveness: умеренная
+- !!monsters.Monster
+  name: Полуденница
+  description: Призрак, терроризирующий поля во время жатвы
+  danger: 5
+  habitat: Обитает на полях Редании и в амбарах Туссента
+  firstMention: '1198-07-15'
+  vulnerability: Уязвима к световой магии
+  height: 2 м
+  weight: неосязаем
+  immunities:
+    - кровотечение
+  activeTime: Активна днём
+  recipe:
+    type: масло
+    ingredients: лепестки лунного цветка (2), серебряная нить (1), экстракт чеснока
+    time: 30
+    effectiveness: высокая
+- !!monsters.Monster
+  name: Катакан
+  description: Крылатый демон с хвостом скорпиона
+  danger: 9
+  habitat: Обитает в горных пещерах Туссента
+  firstMention: '1150-04-12'
+  height: 2 м
+  weight: 200 кг
+  immunities:
+    - огонь
+    - яды
+  activeTime: Активен в сумерках
+  recipe:
+    type: масло
+    ingredients: жало мантикоры (4), нефритовая пыль (2), спирт Альберихта
+    time: 90
+    effectiveness: критическая
+- !!monsters.Monster
+  name: Кикимора
+  description: Болотная нежить из гниющих останков
+  danger: 6
+  habitat: Обитает в топях Вендена
+  firstMention: '1221-09-03'
+  vulnerability: Уязвима к земляной магии
+  height: 1 м
+  weight: 15 кг
+  immunities:
+    - удушье
+  activeTime: Активна ночью
+  recipe:
+    type: яд
+    ingredients: грибы-поганки (5), глаз василиска (1), роса папоротника (3)
+    time: 45
+    effectiveness: средняя
+- !!monsters.Monster
+  name: Элементаль льда
+  description: Дух вечной зимы
+  danger: 10
+  habitat: Обитает в ледниках Ковира
+  firstMention: '1105-12-01'
+  height: 5 м
+  weight: вес не измерим
+  immunities:
+    - заморозка
+    - дробление
+  activeTime: Активен всегда
+  recipe:
+    type: яд
+    ingredients: сердце огненного элементаля (1), сера (3), расплавленное железо
+    time: 120
+    effectiveness: переменная
+- !!monsters.Monster
+  name: Русалка-сирена
+  description: Морское создание, сочетающее черты рыбы и женщины, заманивающее корабли на скалы своими песнями
+  danger: 6
+  habitat: Обитает в водах Скеллиге и у побережья Цинтры
+  firstMention: '1288-07-04'
+  vulnerability: Уязвима к черной магии
+  height: 3 м
+  weight: 150 кг
+  immunities:
+    - удушье
+  activeTime: Активна ночью и во время шторма
+  recipe:
+    type: яд
+    ingredients: чешуя русалки (5), соль (2), кровь утопца
+    time: 35
+    effectiveness: умеренная
+- !!monsters.Monster
+  name: Гриф-перевозчик
+  description: Грозная хищная птица, гнездящаяся на горных пиках, используется как средство передвижения
+  danger: 7
+  habitat: Обитает на скалах Тир Тохайра и горных хребтах Скеллиге
+  firstMention: '1022-06-12'
+  vulnerability: Уязвим к стрелам и молниям
+  height: 2 м
+  weight: 100 кг
+  immunities:
+    - падение
+  activeTime: Активен днем
+  recipe:
+    type: броня
+    ingredients: перья грифона (10), шкура летучей мыши (5), стальные пластины
+    time: 240
+    effectiveness: средняя
+- !!monsters.Monster
+  name: Тенегрыз
+  description: Гибрид теневого демона и ворона, пожирающий свет и надежду
+  danger: 8
+  habitat: Обитает в руинах Доль Блатанны и заброшенных башнях Каэдвена
+  firstMention: '1267-03-18'
+  vulnerability: Неуязвим к физическим атакам (проходит сквозь оружие)
+  height: 2.5 м
+  weight: 0 кг
+  immunities:
+    - ослепление
+    - страх
+  activeTime: Активен в полнолуние и во время солнечных затмений
+  recipe:
+    type: оберег
+    ingredients: Перо феникса (1), уголь из священного костра (2), слеза невинного (1 капля)
+    time: 50
+    effectiveness: высокая
+- !!monsters.Monster
+  name: Костяной Змей
+  description: Оживший скелет древнего дракона, проклятый некромантами
+  danger: 9
+  habitat: Обитает в подземных катакомбах Назаира и песках Офира
+  firstMention: '1134-08-22'
+  vulnerability: Неуязвим к холоду и ядам
+  height: 15 м
+  weight: 800 кг
+  immunities:
+    - дробление
+    - кровотечение
+  activeTime: Активен ночью и в безлунные дни
+  recipe:
+    type: разрушающий порошек
+    ingredients: Зуб вампира (2), пыль разбитого голема (5), ртуть (1 флакон)
+    time: 75
+    effectiveness: критическая
+- !!monsters.Monster
+  name: Песчаный Хронофаг
+  description: Древний дух пустыни, пожирающий время своих жертв
+  danger: 10
+  habitat: Обитает в барханах Зеррикании и руинах исчезнувших цивилизаций
+  firstMention: '1055-10-09'
+  vulnerability: Неуязвим к обычным атакам (стареет любое оружие при контакте)
+  height: переменный (от 3 до 10 м)
+  weight: как песок
+  immunities:
+    - старение
+    - замедление времени
+  activeTime: во время песчаных бурь
+  recipe:
+    type: временный щит
+    ingredients: Песок из часов Судного дня (1 горсть), кровь вампира-хрономага (1 капля), кристалл аметиста (3)
+    time: 180
+    effectiveness: переменная

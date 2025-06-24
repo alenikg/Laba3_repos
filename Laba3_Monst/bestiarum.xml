@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monsters>
+    <monster>
+        <name>Леший</name>
+        <description>Гибрид человека и лесного духа, охраняющий древние рощи</description>
+        <danger>7</danger>
+        <habitat>Обитает в чащах Брокилона и Эдингеля</habitat>
+        <firstMention>1234-06-21</firstMention>
+        <vulnerability>Неуязвим к магии</vulnerability>
+        <height>3 м</height>
+        <weight>300 кг</weight>
+        <immunities>
+            <immunity>оглушение</immunity>
+            <immunity>яды</immunity>
+        </immunities>
+        <activeTime>Активен ночью</activeTime>
+        <recipe>
+            <type>яд</type>
+            <ingredients>корень мандрагоры (3), пепел драконида (1), эссенция полыни</ingredients>
+            <time>60</time>
+            <effectiveness>умеренная</effectiveness>
+        </recipe>
+    </monster>
+    <monster>
+        <name>Полуденница</name>
+        <description>Призрак, терроризирующий поля во время жатвы</description>
+        <danger>5</danger>
+        <habitat>Обитает на полях Редании и в амбарах Туссента</habitat>
+        <firstMention>1198-07-15</firstMention>
+        <vulnerability>Уязвима к световой магии</vulnerability>
+        <height>2 м</height>
+        <weight>неосязаем</weight>
+        <immunities>
+            <immunity>кровотечение</immunity>
+        </immunities>
+        <activeTime>Активна днём</activeTime>
+        <recipe>
+            <type>масло</type>
+            <ingredients>лепестки лунного цветка (2), серебряная нить (1), экстракт чеснока</ingredients>
+            <time>30</time>
+            <effectiveness>высокая</effectiveness>
+        </recipe>
+    </monster>
+    <monster>
+        <name>Катакан</name>
+        <description>Крылатый демон с хвостом скорпиона</description>
+        <danger>9</danger>
+        <habitat>Обитает в горных пещерах Туссента</habitat>
+        <firstMention>1150-04-12</firstMention>
+        <height>2 м</height>
+        <weight>200 кг</weight>
+        <immunities>
+            <immunity>огонь</immunity>
+            <immunity>яды</immunity>
+        </immunities>
+        <activeTime>Активен в сумерках</activeTime>
+        <recipe>
+            <type>масло</type>
+            <ingredients>жало мантикоры (4), нефритовая пыль (2), спирт Альберихта</ingredients>
+            <time>90</time>
+            <effectiveness>критическая</effectiveness>
+        </recipe>
+    </monster>
+    <monster>
+        <name>Кикимора</name>
+        <description>Болотная нежить из гниющих останков</description>
+        <danger>6</danger>
+        <habitat>Обитает в топях Вендена</habitat>
+        <firstMention>1221-09-03</firstMention>
+        <vulnerability>Уязвима к земляной магии</vulnerability>
+        <height>1 м</height>
+        <weight>15 кг</weight>
+        <immunities>
+            <immunity>удушье</immunity>
+        </immunities>
+        <activeTime>Активна ночью</activeTime>
+        <recipe>
+            <type>яд</type>
+            <ingredients>грибы-поганки (5), глаз василиска (1), роса папоротника (3)</ingredients>
+            <time>45</time>
+            <effectiveness>средняя</effectiveness>
+        </recipe>
+    </monster>
+    <monster>
+        <name>Элементаль льда</name>
+        <description>Дух вечной зимы</description>
+        <danger>10</danger>
+        <habitat>Обитает в ледниках Ковира</habitat>
+        <firstMention>1105-12-01</firstMention>
+        <height>5 м</height>
+        <weight>вес не измерим</weight>
+        <immunities>
+            <immunity>заморозка</immunity>
+            <immunity>дробление</immunity>
+        </immunities>
+        <activeTime>Активен всегда</activeTime>
+        <recipe>
+            <type>яд</type>
+            <ingredients>сердце огненного элементаля (1), сера (3), расплавленное железо</ingredients>
+            <time>120</time>
+            <effectiveness>переменная</effectiveness>
+        </recipe>
+    </monster>
+    <monster>
+        <name>Русалка-сирена</name>
+        <description>Морское создание, сочетающее черты рыбы и женщины, заманивающее корабли на скалы своими песнями
+        </description>
+        <danger>6</danger>
+        <habitat>Обитает в водах Скеллиге и у побережья Цинтры</habitat>
+        <firstMention>1288-07-04</firstMention>
+        <vulnerability>Уязвима к черной магии</vulnerability>
+        <height>3 м</height>
+        <weight>150 кг</weight>
+        <immunities>
+            <immunity>удушье</immunity>
+        </immunities>
+        <activeTime>Активна ночью и во время шторма</activeTime>
+        <recipe>
+            <type>яд</type>
+            <ingredients>чешуя русалки (5), соль (2), кровь утопца</ingredients>
+            <time>35</time>
+            <effectiveness>умеренная</effectiveness>
+        </recipe>
+    </monster>
+    <monster>
+        <name>Гриф-перевозчик</name>
+        <description>Грозная хищная птица, гнездящаяся на горных пиках, используется как средство передвижения
+        </description>
+        <danger>7</danger>
+        <habitat>Обитает на скалах Тир Тохайра и горных хребтах Скеллиге</habitat>
+        <firstMention>1022-06-12</firstMention>
+        <vulnerability>Уязвим к стрелам и молниям</vulnerability>
+        <height>2 м</height>
+        <weight>100 кг</weight>
+        <immunities>
+            <immunity>падение</immunity>
+        </immunities>
+        <activeTime>Активен днем</activeTime>
+        <recipe>
+            <type>броня</type>
+            <ingredients>перья грифона (10), шкура летучей мыши (5), стальные пластины</ingredients>
+            <time>240</time>
+            <effectiveness>средняя</effectiveness>
+        </recipe>
+    </monster>
+    <monster>
+        <name>Тенегрыз</name>
+        <description>Гибрид теневого демона и ворона, пожирающий свет и надежду</description>
+        <danger>8</danger>
+        <habitat>Обитает в руинах Доль Блатанны и заброшенных башнях Каэдвена</habitat>
+        <firstMention>1267-03-18</firstMention>
+        <vulnerability>Неуязвим к физическим атакам (проходит сквозь оружие)</vulnerability>
+        <height>2.5 м</height>
+        <weight>0 кг</weight>
+        <immunities>
+            <immunity>ослепление</immunity>
+            <immunity>страх</immunity>
+        </immunities>
+        <activeTime>Активен в полнолуние и во время солнечных затмений</activeTime>
+        <recipe>
+            <type>оберег</type>
+            <ingredients>Перо феникса (1), уголь из священного костра (2), слеза невинного (1 капля)</ingredients>
+            <time>50</time>
+            <effectiveness>высокая</effectiveness>
+        </recipe>
+    </monster>
+    <monster>
+        <name>Костяной Змей</name>
+        <description>Оживший скелет древнего дракона, проклятый некромантами</description>
+        <danger>9</danger>
+        <habitat>Обитает в подземных катакомбах Назаира и песках Офира</habitat>
+        <firstMention>1134-08-22</firstMention>
+        <vulnerability>Неуязвим к холоду и ядам</vulnerability>
+        <height>15 м</height>
+        <weight>800 кг</weight>
+        <immunities>
+            <immunity>дробление</immunity>
+            <immunity>кровотечение</immunity>
+        </immunities>
+        <activeTime>Активен ночью и в безлунные дни</activeTime>
+        <recipe>
+            <type>разрушающий порошек</type>
+            <ingredients>Зуб вампира (2), пыль разбитого голема (5), ртуть (1 флакон)</ingredients>
+            <time>75</time>
+            <effectiveness>критическая</effectiveness>
+        </recipe>
+    </monster>
+    <monster>
+        <name>Песчаный Хронофаг</name>
+        <description>Древний дух пустыни, пожирающий время своих жертв</description>
+        <danger>10</danger>
+        <habitat>Обитает в барханах Зеррикании и руинах исчезнувших цивилизаций</habitat>
+        <firstMention>1055-10-09</firstMention>
+        <vulnerability>Неуязвим к обычным атакам (стареет любое оружие при контакте)</vulnerability>
+        <height>переменный (от 3 до 10 м)</height>
+        <weight>как песок</weight>
+        <immunities>
+            <immunity>старение</immunity>
+            <immunity>замедление времени</immunity>
+        </immunities>
+        <activeTime>во время песчаных бурь</activeTime>
+        <recipe>
+            <type>временный щит</type>
+            <ingredients>Песок из часов Судного дня (1 горсть), кровь вампира-хрономага (1 капля), кристалл аметиста
+                (3)
+            </ingredients>
+            <time>180</time>
+            <effectiveness>переменная</effectiveness>
+        </recipe>
+    </monster>
+</monsters>

@@ -8,10 +8,10 @@ import java.text.SimpleDateFormat;
 import java.util.List;
 
 public abstract class MonsterParser {
-    private MonsterParser nextParser = null;
+    public MonsterParser nextParser = null;
     public SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd"); 
     
-    static MonsterParser createChain() {
+    public static MonsterParser createChain() {
         MonsterParser xmlParser = new XmlMonsterParser();
         MonsterParser yamlParser = new YamlMonsterParser();
         MonsterParser jsonParser = new JsonMonsterParser();
