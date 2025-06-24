@@ -9,7 +9,7 @@ import java.util.List;
 
 public abstract class MonsterEncoder {
     private MonsterEncoder nextEncoder = null;
-    SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd");
+    public SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd");
 
     static MonsterEncoder createChain() {
         MonsterEncoder xmlEncoder = new XmlMonsterEncoder();

@@ -9,7 +9,7 @@ import java.util.List;
 
 public abstract class MonsterParser {
     private MonsterParser nextParser = null;
-    SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd"); 
+    public SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd"); 
     
     static MonsterParser createChain() {
         MonsterParser xmlParser = new XmlMonsterParser();

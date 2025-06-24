@@ -21,7 +21,7 @@ public class Monster {
     private String weight;
     private List<String> immunities;
     private String activeTime;
-    private Recipe recipe;
+    public Recipe recipe;
     
     public String getDataSource() {
         return dataSource;
